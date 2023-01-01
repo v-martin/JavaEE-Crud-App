@@ -1,0 +1,94 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    padding: 1%;
+    background-color: teal;
+    color: #FFFFFF;
+    font-family: fantasy;
+    text-align: center;
+
+}
+.main-table{
+    border-collapse: separate;
+    border-spacing: 0em;
+    margin: 0 5%;
+    max-height: 500px;
+}
+main{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.graph {
+    margin-top: 20px;
+}
+.graph-shape{
+    fill: teal;
+}
+.graph-axle-line{
+    stroke:black;
+}
+.convex-button{
+    background-color:teal;
+    border: none;
+    color: white;
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.convex-button:hover {
+    background-color:white;
+    color: teal;
+}
+
+.form-title{
+    margin: 7% 0;
+}
+.x-input{
+    background-color:teal;
+    border: 1px solid transparent;
+    color: white;
+    padding: 3px 7px;
+}
+.x-input:hover, .x-input.active{
+    background-color:white;
+    border: 1px solid teal;
+    color: teal;
+    padding: 3px 7px;
+
+}
+#y-data{
+    width: 100%;
+    padding: 1px 2px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+.form {
+    margin-top: -200px;
+}
+.header-table th {
+    background-color:teal;
+    border: 1px solid transparent;
+    color: white;
+    padding: 3px 7px;
+}
+#result-table-body {
+    overflow-y: scroll;
+    height: 505px;
+}
+#error{
+    background-color: azure;
+}
+.result-table {
+    height: 500px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
